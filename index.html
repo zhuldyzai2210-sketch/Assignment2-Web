@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 2 - Advanced CSS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- Task 1 -->
+<body>
+  <section class="task-section">
+    <h2>Task 1. Geometric Composition</h2>
+
+    <div class="mondrian-grid">
+      <div class="block blue"></div>
+      <div class="block white-top"></div>
+      <div class="block yellow"></div>
+      <div class="block white-right-top"></div>
+      <div class="block red"></div>
+      <div class="block black"></div>
+      <div class="block white-right-bottom"></div>
+    </div>
+  </section>
+
+
+<!-- Task 2 -->
+  <section class="task-section">
+    <h2>Task 2. Component Library</h2>
+    <div class="component">
+      <h3>Navigation Bar</h3>
+      <nav class="navbar">
+        <div class="logo">MySite</div>
+        <div class="nav-links">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="nav-buttons">
+          <button>Log in</button>
+          <button>Sign up</button>
+        </div>
+      </nav>
+    </div>
+
+    <div class="component">
+      <h3>Cards</h3>
+      <div class="cards">
+        <article class="card">
+          <h4>Web Design</h4>
+          <p>
+            Learn how to create modern websites using HTML and CSS.
+          </p>
+          <button>Learn more</button>
+        </article>
+
+        <article class="card">
+          <h4>Programming</h4>
+          <p>
+            Programming helps you solve problems and build useful
+            applications for different users.
+          </p>
+          <button>Learn more</button>
+        </article>
+
+        <article class="card">
+          <h4>UI Design</h4>
+          <p>
+            Good user interface makes a website simple, clear and
+            comfortable to use.
+          </p>
+          <button>Learn more</button>
+        </article>
+      </div>
+    </div>
+
+    <div class="component">
+      <h3>Pagination</h3>
+      <div class="pagination">
+        <button>←</button>
+        <div class="page-numbers">
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button>4</button>
+          <button>5</button>
+        </div>
+        <button>→</button>
+        <span class="result-count">
+          1–10 of 50 results
+        </span>
+      </div>
+    </div>
+
+    <div class="component">
+      <h3>Comment</h3>
+      <div class="comment">
+        <div class="avatar">A</div>
+        <div class="comment-text">
+          <div class="comment-info">
+            <strong>Galymzhankyzy Zhuldyzay</strong>
+            <span>2 hours ago</span>
+          </div>
+          <p>
+            This is a useful article. I learned many new things
+            about web development and CSS.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="component">
+      <h3>Pricing Table</h3>
+      <div class="pricing">
+        <div class="plan">
+          <h4>Basic</h4>
+          <p class="price">$9</p>
+          <p>For beginners</p>
+          <ul>
+            <li>5 projects</li>
+            <li>Basic support</li>
+            <li>1 user</li>
+          </ul>
+          <button>Choose plan</button>
+        </div>
+
+        <div class="plan recommended">
+          <p class="recommended-text">Recommended</p>
+          <h4>Pro</h4>
+          <p class="price">$19</p>
+          <p>For professionals</p>
+          <ul>
+            <li>20 projects</li>
+            <li>Priority support</li>
+            <li>5 users</li>
+          </ul>
+          <button>Choose plan</button>
+        </div>
+
+        <div class="plan">
+          <h4>Premium</h4>
+          <p class="price">$29</p>
+          <p>For teams</p>
+          <ul>
+            <li>Unlimited projects</li>
+            <li>Premium support</li>
+            <li>10 users</li>
+          </ul>
+          <button>Choose plan</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+
+<!-- Task 3 -->
+<section class="task-section task3-section">
+    <h2>Task 3. Three Layouts, One Markup</h2>
+    <div class="layout-demo">
+        <h3 class="layout-title">1. Grid Layout</h3>
+        <div class="articles grid-layout">
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=1" alt="Paris">
+                <div class="article-content">
+                    <h3>Paris</h3>
+                    <p>Paris is famous for its beautiful streets, museums and the Eiffel Tower.</p>
+                </div>
+                <time>Sep 20, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=2" alt="Tokyo">
+                <div class="article-content">
+                    <h3>Tokyo</h3>
+                    <p>Tokyo is a modern city with interesting culture, technology and delicious food.</p>
+                </div>
+                <time>Sep 19, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=3" alt="Rome">
+                <div class="article-content">
+                    <h3>Rome</h3>
+                    <p>Rome has many historical buildings and famous places to visit.</p>
+                </div>
+                <time>Sep 18, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=4" alt="Dubai">
+                <div class="article-content">
+                    <h3>Dubai</h3>
+                    <p>Dubai is known for its modern architecture, shopping centers and warm weather.</p>
+                </div>
+                <time>Sep 17, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=5" alt="London">
+                <div class="article-content">
+                    <h3>London</h3>
+                    <p>London combines historical landmarks with modern city life and many cultural attractions.</p>
+                </div>
+                <time>Sep 16, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=6" alt="Seoul">
+                <div class="article-content">
+                    <h3>Seoul</h3>
+                    <p>Seoul is a lively city where traditional Korean culture meets modern technology.</p>
+                </div>
+                <time>Sep 15, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=7" alt="Bali">
+                <div class="article-content">
+                    <h3>Bali</h3>
+                    <p>Bali offers beautiful beaches, nature and peaceful places for travelers.</p>
+                </div>
+                <time>Sep 14, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=8" alt="New York">
+                <div class="article-content">
+                    <h3>New York</h3>
+                    <p>New York is a large city with famous buildings, parks, restaurants and many activities.</p>
+                </div>
+                <time>Sep 13, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=9" alt="Barcelona">
+                <div class="article-content">
+                    <h3>Barcelona</h3>
+                    <p>Barcelona is known for its architecture, beaches and lively atmosphere.</p>
+                </div>
+                <time>Sep 12, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=10" alt="Amsterdam">
+                <div class="article-content">
+                    <h3>Amsterdam</h3>
+                    <p>Amsterdam is famous for its canals, bicycles and beautiful historic streets.</p>
+                </div>
+                <time>Sep 11, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=11" alt="Istanbul">
+                <div class="article-content">
+                    <h3>Istanbul</h3>
+                    <p>Istanbul connects two continents and has a rich history, architecture and culture.</p>
+                </div>
+                <time>Sep 10, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=12" alt="Switzerland">
+                <div class="article-content">
+                    <h3>Switzerland</h3>
+                    <p>Switzerland is famous for its mountains, lakes and beautiful natural landscapes.</p>
+                </div>
+                <time>Sep 9, 2026</time>
+            </article>
+        </div>
+    </div>
+
+    <div class="layout-demo">
+        <h3 class="layout-title">2. List Layout</h3>
+        <div class="articles list-layout">
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=1" alt="Paris">
+                <div class="article-content">
+                    <h3>Paris</h3>
+                    <p>Paris is famous for its beautiful streets, museums and the Eiffel Tower.</p>
+                </div>
+                <time>Sep 20, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=2" alt="Tokyo">
+                <div class="article-content">
+                    <h3>Tokyo</h3>
+                    <p>Tokyo is a modern city with interesting culture, technology and delicious food.</p>
+                </div>
+                <time>Sep 19, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=3" alt="Rome">
+                <div class="article-content">
+                    <h3>Rome</h3>
+                    <p>Rome has many historical buildings and famous places to visit.</p>
+                </div>
+                <time>Sep 18, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=4" alt="Dubai">
+                <div class="article-content">
+                    <h3>Dubai</h3>
+                    <p>Dubai is known for its modern architecture, shopping centers and warm weather.</p>
+                </div>
+                <time>Sep 17, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=5" alt="London">
+                <div class="article-content">
+                    <h3>London</h3>
+                    <p>London combines historical landmarks with modern city life and many cultural attractions.</p>
+                </div>
+                <time>Sep 16, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=6" alt="Seoul">
+                <div class="article-content">
+                    <h3>Seoul</h3>
+                    <p>Seoul is a lively city where traditional Korean culture meets modern technology.</p>
+                </div>
+                <time>Sep 15, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=7" alt="Bali">
+                <div class="article-content">
+                    <h3>Bali</h3>
+                    <p>Bali offers beautiful beaches, nature and peaceful places for travelers.</p>
+                </div>
+                <time>Sep 14, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=8" alt="New York">
+                <div class="article-content">
+                    <h3>New York</h3>
+                    <p>New York is a large city with famous buildings, parks, restaurants and many activities.</p>
+                </div>
+                <time>Sep 13, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=9" alt="Barcelona">
+                <div class="article-content">
+                    <h3>Barcelona</h3>
+                    <p>Barcelona is known for its architecture, beaches and lively atmosphere.</p>
+                </div>
+                <time>Sep 12, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=10" alt="Amsterdam">
+                <div class="article-content">
+                    <h3>Amsterdam</h3>
+                    <p>Amsterdam is famous for its canals, bicycles and beautiful historic streets.</p>
+                </div>
+                <time>Sep 11, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=11" alt="Istanbul">
+                <div class="article-content">
+                    <h3>Istanbul</h3>
+                    <p>Istanbul connects two continents and has a rich history, architecture and culture.</p>
+                </div>
+                <time>Sep 10, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=12" alt="Switzerland">
+                <div class="article-content">
+                    <h3>Switzerland</h3>
+                    <p>Switzerland is famous for its mountains, lakes and beautiful natural landscapes.</p>
+                </div>
+                <time>Sep 9, 2026</time>
+            </article>
+        </div>
+    </div>
+
+    <div class="layout-demo">
+        <h3 class="layout-title">3. Magazine Layout</h3>
+        <div class="articles magazine-layout">
+            <article class="article">
+                <img src="https://picsum.photos/500/400?random=1" alt="Paris">
+                <div class="article-content">
+                    <h3>Paris</h3>
+                    <p>Paris is famous for its beautiful streets, museums and the Eiffel Tower. The city attracts millions of visitors every year.</p>
+                </div>
+                <time>Sep 20, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=2" alt="Tokyo">
+                <div class="article-content">
+                    <h3>Tokyo</h3>
+                    <p>Tokyo is a modern city with interesting culture and technology.</p>
+                </div>
+                <time>Sep 19, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=3" alt="Rome">
+                <div class="article-content">
+                    <h3>Rome</h3>
+                    <p>Rome has many historical buildings and famous places.</p>
+                </div>
+                <time>Sep 18, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=4" alt="Dubai">
+                <div class="article-content">
+                    <h3>Dubai</h3>
+                    <p>Dubai is known for modern architecture and warm weather.</p>
+                </div>
+                <time>Sep 17, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=5" alt="London">
+                <div class="article-content">
+                    <h3>London</h3>
+                    <p>London combines historical landmarks with modern city life.</p>
+                </div>
+                <time>Sep 16, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=6" alt="Seoul">
+                <div class="article-content">
+                    <h3>Seoul</h3>
+                    <p>Seoul combines traditional culture with modern technology.</p>
+                </div>
+                <time>Sep 15, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=7" alt="Bali">
+                <div class="article-content">
+                    <h3>Bali</h3>
+                    <p>Bali offers beaches and beautiful natural places.</p>
+                </div>
+                <time>Sep 14, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=8" alt="New York">
+                <div class="article-content">
+                    <h3>New York</h3>
+                    <p>New York is a large city with famous buildings and many activities.</p>
+                </div>
+                <time>Sep 13, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=9" alt="Barcelona">
+                <div class="article-content">
+                    <h3>Barcelona</h3>
+                    <p>Barcelona is known for architecture and beaches.</p>
+                </div>
+                <time>Sep 12, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=10" alt="Amsterdam">
+                <div class="article-content">
+                    <h3>Amsterdam</h3>
+                    <p>Amsterdam is famous for canals and bicycles.</p>
+                </div>
+                <time>Sep 11, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=11" alt="Istanbul">
+                <div class="article-content">
+                    <h3>Istanbul</h3>
+                    <p>Istanbul connects two continents and has a rich history.</p>
+                </div>
+                <time>Sep 10, 2026</time>
+            </article>
+
+            <article class="article">
+                <img src="https://picsum.photos/300/200?random=12" alt="Switzerland">
+                <div class="article-content">
+                    <h3>Switzerland</h3>
+                    <p>Switzerland is famous for its mountains, lakes and natural landscapes.</p>
+                </div>
+                <time>Sep 9, 2026</time>
+            </article>
+        </div>
+    </div>
+</section>
+</html>
